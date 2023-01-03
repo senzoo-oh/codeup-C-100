@@ -2,10 +2,10 @@
 
 int main(void){
   char alphabet;
-  while (alphabet != 'q'){
-    scanf("%c", &alphabet);
-    printf("%c", alphabet);
-    printf("\n");
-  }
-  return 0;
+
+while (alphabet != 'q'){
+  scanf("%c ",&alphabet);
+  printf("%c\n", alphabet);
+}
+return 0;
 }
